@@ -184,17 +184,56 @@ src/
 - The authentication system is simplified for demo purposes
 - The UI is built with a mobile-first responsive approach
 
+## 🚀 Backend API
+
+The project now includes a complete Node.js/Express backend API with MongoDB database.
+
+### Backend Features
+- **JWT Authentication**: Secure token-based authentication
+- **RESTful API**: Complete CRUD operations for all entities
+- **Role-based Access Control**: Different permissions for different user roles
+- **MongoDB Database**: NoSQL database with Mongoose ODM
+- **Security**: Helmet, rate limiting, CORS protection
+- **Error Handling**: Comprehensive error handling middleware
+
+### Backend Setup
+1. **Navigate to backend directory**
+   ```bash
+   cd backend
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start MongoDB** (make sure MongoDB is running)
+
+4. **Start the backend server**
+   ```bash
+   npm run dev
+   ```
+
+The backend API will be available at `http://localhost:5000`
+
+### Backend Demo Accounts
+- **End User**: `akash@gmail.com` / `password123`
+- **Support Agent**: `harshita@quickdesk.com` / `password123`
+- **Admin**: `admin@quickdesk.com` / `password123`
+
+For detailed backend documentation, see [backend/README.md](backend/README.md)
+
 ## 🤝 Contributing
 
-This is a demo project showcasing modern React development practices. For production use, consider implementing:
+This is a demo project showcasing modern full-stack development practices. For production use, consider implementing:
 
-- Backend API integration
-- Database persistence
-- Real authentication system
 - File upload capabilities
 - Email notifications
 - Advanced reporting features
+- Real-time notifications (WebSocket)
+- Advanced search and filtering
+- API documentation (Swagger)
 
 ---
 
-**QuickDesk** - A modern help desk solution for efficient customer support management. 
+**QuickDesk** - A modern full-stack help desk solution for efficient customer support management. 
